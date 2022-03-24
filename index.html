@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+</head>
+
+<body>
+  <header class="sun-header">
+    <div class="sun-menu-container">
+      <img class="sun-menu-logo" src="images/logo.svg" alt="logo sunnyside">
+      <nav class="sun-nav-mobile">
+        <a id="sun-menu-link" href="#"><span id="sun-menu-burger"></span></a>
+        <ul class="sun-burger-ul" id="sun-burger-ul">
+          <div>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a class="sun-menu-contact" href="#">Contact</a></li>
+          </div>
+
+        </ul>
+      </nav>
+      <nav class="sun-nav-desktop">
+        <ul class="sun-menu-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="sun-header-title">We are creatives</h1>
+    <img class="sun-header-arrow" src="images/icon-arrow-down.svg" alt="flèche vers le bas">
+  </header>
+
+  <main>
+    <section class="sun-grid-container">
+      <article class="sun-grid-1">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a class="sun-transform-link" href="#">Learn more</a>
+      </article>
+      <article class="sun-grid-2">
+
+      </article>
+      <article class="sun-grid-3">
+        <img src="images/desktop/image-stand-out.jpg" alt="">
+      </article>
+      <article class="sun-grid-4">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build and extend your brand in digital places.
+        </p>
+        <a class="sun-stand-link" href="#">Learn more</a>
+      </article>
+      <article class="sun-grid-5">
+        <div>
+          <h3 class="sun-graphic-title">Graphic design</h2>
+            <p class="sun-graphic-paragraph">Great design makes you memorable. We deliver artwork that underscores your
+              brand message and captures potential
+              clients’ attention.</p>
+        </div>
+      </article>
+      <article class="sun-grid-6">
+        <div>
+          <h3 class="sun-photography-title">Photography</h2>
+            <p class="sun-photography-paragraph">Increase your credibility by getting the most stunning, high-quality
+              photos that improve your business image.</p>
+        </div>
+
+      </article>
+    </section>
+    <section class="sun-testimonial-section">
+      <h4>Client testimonials</h4>
+      <article>
+        <div>
+          <img class="sun-testimonial-picture" src="images/image-emily.jpg" alt="Photo Emily">
+          <p class="sun-testimonial-paragraph">We put our trust in Sunnyside and they delivered, making sure our needs
+            were met and deadlines were always hit.</p>
+          <h5>Emily R.</h5>
+          <span>Marketing Director</span>
+        </div>
+        <div>
+          <img class="sun-testimonial-picture" src="images/image-thomas.jpg" alt="Photo Emily">
+          <p class="sun-testimonial-paragraph">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+            success made it a satisfying and enjoyable
+            experience.</p>
+          <h5>Thomas S.</h5>
+          <span>Chief Operating Officer</span>
+        </div>
+        <div>
+          <img class="sun-testimonial-picture" src="images/image-jennie.jpg" alt="Photo Emily">
+          <p class="sun-testimonial-paragraph">Incredible end result! Our sales increased over 400% when we worked with
+            Sunnyside. Highly recommended!</p>
+          <h5>Jennie F.</h5>
+          <span>Business Owner</span>
+        </div>
+      </article>
+
+    </section>
+    <section class="sun-galery-container">
+      <article><img src="images/desktop/image-gallery-milkbottles.jpg" alt="Galerie bouteilles de lait"></article>
+      <article><img src="images/desktop/image-gallery-orange.jpg" alt="Galerie orange"></article>
+      <article><img src="images/desktop/image-gallery-cone.jpg" alt="Galerie cornet de glace"></article>
+      <article><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Galerie sucre"></article>
+    </section>
+  </main>
+  <footer>
+    <img class="sun-footer-logo" src="images/logo-footer.svg" alt="Logo sunnyside">
+    <nav>
+      <ul class="sun-footer-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <div class="sun-footer-social">
+        <a class="sun-footer-social-icon" href="#"><img src="images/icon-facebook.svg" alt="Icone Facebook"></a>
+        <a class="sun-footer-social-icon" href="#"><img src="images/icon-instagram.svg" alt="Icone Instagram"></a>
+        <a class="sun-footer-social-icon" href="#"><img src="images/icon-twitter.svg" alt="Icone Twitter"></a>
+        <a class="sun-footer-social-icon" href="#"><img src="images/icon-pinterest.svg" alt="Icone Pinterest"></a>
+      </div>
+    </nav>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lucas GOLDER</a>.
+  </div>
+  <script src="script/burger.js"></script>
+</body>
+
+</html>
